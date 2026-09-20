@@ -28,3 +28,4 @@ java -cp target/DAA1ASS-1.0-SNAPSHOT.jar com.daa.Benchmark
 Option B: Via IntelliJ IDEAOpen src/main/java/com/daa/Benchmark.java.Right-click on public static void main(String[] args) and select Run 'Benchmark.main()'. Generating Visual PlotsOnce results.csv is created in the project root, you can render the performance graphs (time_vs_n.png, depth_vs_n.png, ratio_vs_n.png) using the provided Python script:Install visualization dependencies:pip install pandas matplotlib numpy
 Execute script:python generate_plots.py
  Git WorkflowThis project adheres to a clean feature-branch Git workflow:Branches Used:main (tagged release v1.0)feature/mergesortfeature/quicksortfeature/selectfeature/metricsRelease Tag: v1.0
+<img width="742" height="144" alt="image" src="https://github.com/user-attachments/assets/442fdea9-7b77-4cf3-b52b-bbeaf484e0a1" />
